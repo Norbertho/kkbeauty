@@ -12,10 +12,13 @@
 
         <!-- Styles -->
         <link rel="stylesheet" href="{{ mix('css/app.css') }}">
+        <link rel="stylesheet" href="css/gallery.css">
+     
         @livewireStyles
 
         <!-- Scripts -->
         <script src="{{ mix('js/app.js') }}" defer></script>
+   
     </head>
     <body>
         <div class="font-sans text-gray-900 antialiased">
@@ -23,5 +26,16 @@
             {{ $slot }}
         </div>
         @livewireScripts
+        <script src="js/gallery.js" ></script>
+        <script>
+        var myGallery = new FgGallery('.fg-gallery', {
+            cols: 4,
+            style: {
+              border: '10px solid #fff',
+              height: '180px',
+              boxShadow: '0 2px 10px -5px #000'
+            }
+        })
+    </script>
     </body>
 </html>

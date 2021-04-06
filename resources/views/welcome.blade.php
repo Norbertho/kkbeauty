@@ -134,8 +134,29 @@
     <div class="w-full bg-puder">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24">
             <h2 class="uppercase text-4xl font-bold text-maingray">Munkáim képekben</h2>
-            <p>Tekintsd meg az általam készített műszempillákat és szemöldököket. Még több képet és visszajelzéseket is találhatsz Facebook oldalamon és Instagram profilomon.</p>
-
+            <p class="mt-4">Tekintsd meg az általam készített műszempillákat és szemöldököket. Még több képet és visszajelzéseket is találhatsz Facebook oldalamon és Instagram profilomon.</p>
+            <div class="mt-6 fg-gallery">
+                <img src="{{asset('images/muszempilla/muszempilla-6d-krisztina-knyihar.jpg')}}" alt="6D műszempilla Szentendre">
+                <img src="{{asset('images/muszempilla/6D-muszempilla-epites.jpg')}}" alt="6D műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/5D-muszempilla-epites.jpg')}}" alt="5D műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/4D-muszempilla-epites.jpg')}}" alt="4D műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/3D-muszempilla-budapest.jpg')}}" alt="3D műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/szempilla-epites.jpg')}}" alt="Szempilla építés Szentendrén">
+                <img src="{{asset('images/muszempilla/167457715_355977269112844_3210513212965106660_n.jpg')}}" alt="Műszempilla építés Budapesten">
+                <img src="{{asset('images/muszempilla/muszempilla.jpg')}}" alt="Műszempilla építés Szentendrén">
+                <img src="{{asset('images/muszempilla/dunakeszi-muszempilla.jpg')}}" alt="Műszempilla építés Dunakeszi">
+                <img src="{{asset('images/muszempilla/volume-muszempilla.jpg')}}" alt="volume profi Műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/7D-10D-volume-muszempilla.jpg')}}" alt="7D 10D volume profi Műszempilla Budapest">
+                <img src="{{asset('images/muszempilla/szempilla-epites-13-kerulet.jpg')}}" alt="Műszempilla építés 13. kerület Budapest">
+                <img src="{{asset('images/muszempilla/muszempilla-3-kerulet.jpg')}}" alt="Műszempilla építés 3. kerület Budapest">
+                <img src="{{asset('images/muszempilla/muszempilla-epites-budapest.jpg')}}" alt="Műszempilla építés Budapest">
+                <img src="{{asset('images/muszempilla/2D-muszempilla.jpg')}}" alt="2D műszempilla stylist Szentendre">
+                <img src="{{asset('images/muszempilla/muszempilla-epites-szentendre.jpg')}}" alt="muszempilla építés Szentendre">
+                <img src="{{asset('images/muszempilla/szempilla-epites-szentendre.jpg')}}" alt="szempilla építés Szentendre">
+                <img src="{{asset('images/muszempilla/muszempilla-4D-5D-szentendre.jpg')}}" alt="4D 5D műszempilla Szentendre">
+                <img src="{{asset('images/muszempilla/muszempilla-6D-szentendre.jpg')}}" alt="6D műszempilla Szentendre Knyihár Krisztina">
+                
+              </div>
         </div>
     </div>
 
